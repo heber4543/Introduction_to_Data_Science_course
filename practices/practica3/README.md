@@ -17,7 +17,7 @@ Fuente. Realinho, V., Vieira Martins, M., Machado, J. y Baptista, L. (2021). *Pr
 
 | Archivo | Descripción |
 |---|---|
-| `practica3.ipynb` | Notebook con el análisis completo |
+| `P3.ipynb` | Notebook con el análisis completo |
 | `predicciones.csv` | Predicciones del clasificador final para los 885 estudiantes de prueba (columnas `id` y `Target`) |
 | `datos/` | Conjuntos de entrenamiento y prueba |
 
