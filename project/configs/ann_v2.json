@@ -1,0 +1,14 @@
+{
+  "ann_run_name": "ann_v2",
+  "sim_config": "configs/fase3_rejilla001_secaleatoria.json",
+  "seed": 2026,
+  "split": {"train": 0.6, "val": 0.2, "test": 0.2},
+  "val_monitor_rows": 2000000,
+  "stats_rows": 5000000,
+  "hidden": [256, 128, 64],
+  "batch_size": 8192,
+  "lr": 0.001,
+  "device": "auto",
+  "select": {"lambdas": [0.0, 0.3, 1.0, 3.0], "passes": 0.5, "evals_per_pass": 4, "tolerance": 0.01},
+  "final": {"max_passes": 20, "evals_per_pass": 4, "patience_passes": 3}
+}

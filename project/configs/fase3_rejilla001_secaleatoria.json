@@ -1,0 +1,21 @@
+{
+  "run_name": "fase3_rejilla001_secaleatoria",
+  "run_dir": "/LUSTRE/cienciascomp/$USER/rlwm-sim/runs/fase3_rejilla001_secaleatoria",
+  "design": "tesis_fase3",
+  "sequence": {"mode": "random_per_agent", "max_delay_factor": 2,
+               "mapping": "distinct_then_random", "shuffle_blocks": true},
+  "plan_seed": 20261125,
+  "sim_seed": 20261126,
+  "replicates": 5,
+  "n_shards": 200,
+  "grid": {
+    "axes": [
+      {"name": "K",       "values": [2, 3, 4]},
+      {"name": "epsilon", "start": 1, "stop": 49, "step": 1, "scale": 100},
+      {"name": "rho",     "start": 1, "stop": 99, "step": 1, "scale": 100},
+      {"name": "phi",     "start": 1, "stop": 99, "step": 1, "scale": 100},
+      {"name": "alpha",   "start": 1, "stop": 99, "step": 1, "scale": 100}
+    ],
+    "fixed": {"beta": 17.0, "bias_wm": 0.0, "bias_rl": 1.0}
+  }
+}
