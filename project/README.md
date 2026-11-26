@@ -12,7 +12,7 @@ Los datos no se incluyen en este repositorio porque son bastante pesados (solo l
 
 Los datos de los participantes están seudonimizados y se recolectaron bajo el protocolo SIPCEINV/122/2025.
 
-Contacto. [CORREO]
+Contacto. hzapata@cicese.edu.mx
 
 ## Estructura
 
