@@ -73,3 +73,7 @@ El notebook lee los resultados de los pasos 3 a 5 desde Google Drive. Para usarl
 - Rejilla. α, ϕ y ρ de 0.01 a 0.99, ε de 0.01 a 0.49, K de 2 a 4, con pasos de 0.01 y 5 réplicas por combinación.
 - Cada agente recibe su propia secuencia de estímulos, generada con las reglas de la fase 3, y su azar depende solo de la semilla, del agente y del ensayo.
 - División 60/20/20 por combinación de parámetros, para que las 5 réplicas de una combinación queden en el mismo conjunto.
+
+## Declaración de uso de inteligencia artificial generativa
+
+Se utilizó Claude (Anthropic) para apoyar la programación durante el proyecto y la organización del reporte, así como su revisión de redacción y ortografía. El diseño del estudio, las decisiones metodológicas y la interpretación de los resultados son del autor.
